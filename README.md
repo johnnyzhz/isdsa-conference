@@ -1,6 +1,6 @@
-# Hugo conference
+# ISDSA conference
 
-Hugo conference is a theme for conferences/events based on the original [conf-boilerplate theme](https://github.com/braziljs/conf-boilerplate/) by [BrazilJS Foundation](http://braziljs.org/) and his many contributors.
+ISDSA conference is a theme for conferences/events based on the Hugo conference https://github.com/jweslley/hugo-conference themes/hugo-conference. It is used by https://meeting.isdsa.org
 
 ## Building my conference site from scratch
 
@@ -9,9 +9,9 @@ Hugo conference is a theme for conferences/events based on the original [conf-bo
 
         hugo new site my-conf
         cd my-conf
-        git clone https://github.com/jweslley/hugo-conference themes/hugo-conference
+        git clone https://github.com/johnnyzhz/isdsa-conference
         rm -f config.toml
-        cp themes/hugo-conference/exampleSite/config.yml .
+        mv themes/isdsa-conference/config.yml .
 
 3. It's done. Just start Hugo server to see it live!
 
@@ -30,11 +30,13 @@ By default, the site have the following sections:
 - Sponsors - to show the brand of your sponsors.
 - Partners - to show the brand of your partners.
 
+We have made significant changes to the layouts.
+
 Ps: It's important to change the `baseurl` property from `config.yml` file in order to reflect your settings.
 
-### Google Maps
+## PHP file
 
-Google now requires a Google Maps JavaScript API Key to show maps. You can obtain your key [here](https://developers.google.com/maps/documentation/javascript/get-api-key). Then set your API key in the `GoogleMapsKey` param in the `config.yml` file.
+We use PHP to process registration and payment through PayPal. You will need to change the information in the PHP files to match your settings.
 
 ## License
 
