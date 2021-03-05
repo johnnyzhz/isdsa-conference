@@ -1,0 +1,201 @@
+baseurl: "https://meeting.isdsa.org/demo"
+title: "2021 ISDSA Meeting"
+canonifyurls: true
+theme: "isdsa-conference"
+disableKinds:
+- taxonomy
+- taxonomyTerm
+
+GoogleAnalytics: "xxxx"
+
+params:
+  # Conference info
+  Name: "2021 ISDSA Meeting"
+  Subname: Behavioral Data Science
+  Description: "Annual Meeting of the International Society for Data Science and Analytics (ISDSA) "
+  Date: "June 5, 2021"
+  #Price: "Only $100" # If your event is free, just comment this line
+  Venue: "Virtual meeting on Zoom"
+  Address: "University of Notre Dame"
+  City:  "University of Notre Dame"
+  State: "IN"
+  #Images: ["/img/badge.jpg"]
+  #GoogleMapsKey: "my-secret-maps-key"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    #- location
+    - speakers
+    #- schedule
+    - workshop
+    - registration
+    - sponsors
+    - partners
+    #- contact
+    - faq
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "About"
+    location: "Location"
+    speakers: "Speakers"
+    schedule: "Schedule"
+    workshop: "Workshop"
+    sponsors: "Sponsors"
+    partners: "Organizers"
+    contact: "Contact"
+    registration: "Registration"
+    faq: "FAQ"
+
+  Info:
+    workshop: "Workshop on Statistical Power Analysis"
+    registration: "Free Meeting Registration"
+    faq: "Frequently Asked Questions"
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  CallToAction:
+    text: "Free registration"
+    link: "https://qualtrics form"
+
+
+  # List of Sponsors
+  Sponsors:
+    - name: "ISLA at University of Notre Dame"
+      logo: "/img/isla.png"
+      url: "https://isla.nd.edu"
+    - name: "Notre Dame International"
+      logo: "/img/ndi.png"
+      url: "https://international.nd.edu"
+    - name: "ISDSA"
+      logo: "/img/isdsa.png"
+      url: "https://isdsa.org"
+    - name: "Nanjing University of Posts and Telecommunications"
+      logo: "/img/nanyou.jpg"
+      url: "https://www.njupt.edu.cn/"  
+    
+ 
+  Workshop:
+    - name: "Work on Statistical Power Analysis"
+    
+  # List of Partners (Organizers)
+  Partners:
+    - name: "Zhiyong Zhang"
+      title: Professor
+      institute: University of Notre Dame
+      logo: "/img/jzhang.jpg"
+      url: "https://bigdatalab.nd.edu"
+    - name: "Ke-Hai Yuan"
+      title: Professor
+      institute: University of Notre Dame
+      logo: "/img/kyuan.jpg"
+      url: "https://psychology.nd.edu/faculty/ke-hai-yuan/"
+
+  # The entire schedule
+  Schedule:
+    - name: "Welcome"
+      time: "8:45-9:00"
+     
+    - name: "Dr. Mike Cheung"
+      photo: "/img/mike.jpg"
+      bio: "Dr. Mike Cheung is a Professor at the Department of Psychology of the National University of Singapore. His research interests are quantitative methods, especially in the topics of meta-analysis, structural equation modeling, and multilevel modeling. His current research focus is integrating meta-analysis into the structural equation modeling framework."
+      company: "National University of Singapore"
+      link:
+        href: "http://mikewlcheung.github.io/"
+        text: "National University of Singapore"
+      presentation:
+        title: "Talk Title: Integrating meta-analysis within the structural equation modeling framework"
+        description: "Structural equation modeling (SEM) and meta-analysis are two powerful statistical methods in the educational, social, behavioral, and medical sciences. Researchers usually treat them as two unrelated topics in the literature. This presentation gives an overview of how many meta-analytic models, such as univariate, multivariate, and three-level meta-analyses, can be integrated under the SEM framework."
+        #time: "9:00-10:00"
+
+    - name: "Dr. Kevin Grimm"
+      photo: "/img/grimm.jpg"
+      bio: "Kevin Grimm, Ph.D., is a Professor in the Department of Psychology at Arizona State University. He directs the Health and Developmental Research Methods Laboratory at Arizona State University. Grimm's current research focuses on data integration, the specification of growth models for binary and ordinal outcomes, longitudinal measurement invariance, and the development and application of data mining techniques for psychological science."
+      company: "Arizona State University"
+      link:
+        href: "https://psychology.asu.edu/research/labs/health-and-developmental-methods-lab-grimm"
+        text: "Arizona State University"
+      presentation:
+        title: "Talk Title: TBA"
+        description: "TBA"
+        #time: "9:00-10:00"
+        
+    - name: "Dr. Qiwei He"
+      photo: "/img/he.jpg"
+      bio: "Dr. Qiwei (Britt) He is a Research Scientist for the National and International Assessment at Educational Testing Service (ETS), where she helps oversee research projects in international large-scale assessments such as PISA and PIAAC. Besides applying advanced techniques such as text mining and IRT in assessments, she has broadened her research to focus on developing new methods in analyzing big data, such as process data in log files, and to understand individuals' behavior during learning and testing."
+      company: "Educational Testing Service"
+      link:
+        href: "https://loop.frontiersin.org/people/484649/bio"
+        text: "Educational Testing Service"
+      presentation:
+        title: "Talk Title: TBA"
+        description: "TBA"
+        #time: "9:00-10:00"
+    
+    - name: "Dr. David Hunter"
+      photo: "/img/hunter.jpg"
+      bio: "Dr. David Hunter is a Professor of Statistics at The Pennsylvania State University. Dr. Hunter has published widely on statistical models for networks and is a co-creator of the statnet suite of packages for network analysis in R. He co-proposed the MM algorithms and has written extensively on this and other EM-like algorithms. He has also extended the theory and computational practice of unsupervised clustering using nonparametric finite mixture models."
+      company: "Pennsylvania State University"
+      link:
+        href: "https://personal.psu.edu/drh20/"
+        text: "Pennsylvania State University"
+      presentation:
+        title: "Talk Title: TBA"
+        description: "TBA"
+        #time: "9:00-10:00"
+        
+    - name: "Dr. Nilam Ram"
+      photo: "/img/ram.jpg"
+      bio: "Dr. Nilam Ram is a Professor in the Departments of Communication and Psychology at Stanford University.  Nilam’s research grows out of a history of studying change. His current projects include examinations of age-related change in children’s self- and emotion-regulation; patterns in minute-to-minute and day-to-day progression of adolescents’ and adults’ emotions; and change in contextual influences on well-being during old age. He is developing a variety of study paradigm that use recent developments in data science and the intensive data streams arriving from social media, mobile sensors, and smartphones to study change at multiple time scales."
+      company: "Stanford University"
+      link:
+        href: "https://comm.stanford.edu/faculty-ram/"
+        text: "Stanford University"
+      presentation:
+        title: "Talk Title:  TBA"
+        description: "TBA"
+        #time: "9:00-10:00"
+
+    - name: "Dr. Doug Steinley"
+      photo: "/img/doug.jpg"
+      bio: "Doug Steinley, Ph.D., is a Professor at the University of Missouri. His research focuses on multivariate statistical methodology, with a primary interest in cluster analysis and social network analysis. His research in cluster analysis focuses on both traditional cluster analytic procedure (e.g., k-means cluster analysis) and more modern techniques (e.g., mixture modeling). In that the formulation of the general partitioning problem can be thought of in a graph theoretic nature, his research also involves combinatorics and social network analysis."
+      company: "University of Missouri"
+      link:
+        href: "https://psychology.missouri.edu/people/steinley"
+        text: "University of Missouri"
+      presentation:
+        title: "Talk Title: TBA"
+        description: "TBA"
+        #time: "9:00-10:00"
+        
+    - name: "Dr. Matthew Wilkens"
+      photo: "/img/matt.jpg"
+      bio: "Dr. Matthew Wilkens is an Associate Professor of information science at Cornell University. He uses quantitative and computational methods to study large-scale developments in literary and cultural history. His work has focused in particular on literary text mining, geolocation extraction, genre detection, and the cross-pollination of critical and social-scientific methods. He is the director of the Textual Geographies project, a co-investigator of the Text Mining the Novel project, a founding editorial board member of the Journal of Cultural Analytics, and the author of Revolution: The Event in Postwar Fiction."
+      company: "Cornell University"
+      link:
+        href: "https://infosci.cornell.edu/content/wilkens"
+        text: "Cornell University"
+      presentation:
+        title: "Talk Title: TBA"
+        description: "TBA"
+        #time: "9:00-10:00"
+        
+    - name: "Dr. Jerry Jiunyu Wu"
+      photo: "/img/jerry.jpg"
+      bio: "Dr. Jerry Wu is currently Professor at National Yang Ming Chiao Tung University, Taiwan. He is a quantitative methodologist specializing in Multilevel Structural Equation Modeling (MSEM) with cross-sectional and longitudinal data. His research interests focus on students' online reading behavior and performance as well as factors that motivate or hinder students' selective attention during online learning."
+      company: "National Yang Ming Chiao Tung University"
+      link:
+        href: "https://ml2lab.nctu.edu.tw/?page_id=95"
+        text: "National Yang Ming Chiao Tung University"
+      presentation:
+        title: "Talk Title: TBA"
+        description: "TBA"
+        #time: "9:00-10:00"
+
+
+    #- name: "Break"
+    #  time: "12:00-13:00"
+
+    
+    

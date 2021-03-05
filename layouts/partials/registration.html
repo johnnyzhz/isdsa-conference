@@ -1,0 +1,26 @@
+<h2 class="section-title">{{ .info.registration }}</h2>
+
+<p itemprop="description">Registration to attend the virtual meeting is free but required for planning purpose. We will send you the Zoom information through email, so make sure your email address is correct.</p>
+
+<h3>Registration form</h3>
+
+<div class="container">
+<form method="post" action="/php/register.php">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name" required>
+
+    <label for="email">Your email</label>
+    <input type="email" id="email" name="email" placeholder="Your email" required>
+
+    <label for="affiliation">Your affiliation</label>
+	<input type="text" id="affiliation" name="affiliation" placeholder="Your affiliation" required>
+	
+	<label for="question">The answer to (3+9)/2=?</label>
+	<input type="text" id="question" name="question" placeholder="Input the answer to the above question" required>
+    
+    <label for="subject">Any comment?</label>
+    <textarea id="comment" name="comment" placeholder="Your comments or feedback" style="height:100px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+  

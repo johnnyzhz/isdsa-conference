@@ -1,0 +1,17 @@
+name = "ISDSA Conference"
+license = "MIT"
+licenselink = "https://github.com/jweslley/hugo-conference/blob/master/LICENSE"
+description = "Modified from Hugo conference for ISDSA"
+homepage = "https://github.com/jweslley/hugo-conference/"
+tags = ["conference", "responsive", "l10n", "google-analytics"]
+features = ["conference", "responsive", "l10n", "google-analytics"]
+min_version = "0.21"
+
+[author]
+  name = "isdsa"
+  homepage = "//isdsa.org"
+
+[original]
+  name = "conf-boilerplate"
+  homepage = "//github.com/jweslley/hugo-conference/"
+  repo = "//github.com/jweslley/hugo-conference/"
